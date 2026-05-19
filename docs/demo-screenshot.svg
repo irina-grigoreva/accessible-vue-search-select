@@ -1,0 +1,28 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="760" fill="#F8FAFC"/>
+  <rect x="96" y="72" width="1008" height="616" rx="18" fill="white" stroke="#E2E8F0"/>
+  <text x="140" y="142" fill="#0F172A" font-family="Arial, sans-serif" font-size="38" font-weight="700">Accessible Vue 3 Search Select</text>
+  <text x="140" y="182" fill="#475569" font-family="Arial, sans-serif" font-size="18">Searchable combobox with keyboard support, ARIA attributes, slots, loading and disabled states.</text>
+  <rect x="140" y="238" width="420" height="86" rx="10" fill="#F8FAFC" stroke="#E2E8F0"/>
+  <text x="164" y="274" fill="#334155" font-family="Arial, sans-serif" font-size="15" font-weight="700">Basic select</text>
+  <rect x="164" y="288" width="348" height="40" rx="6" fill="white" stroke="#94A3B8"/>
+  <text x="178" y="313" fill="#0F172A" font-family="Arial, sans-serif" font-size="15">New York</text>
+  <rect x="140" y="356" width="420" height="220" rx="10" fill="#F8FAFC" stroke="#E2E8F0"/>
+  <text x="164" y="392" fill="#334155" font-family="Arial, sans-serif" font-size="15" font-weight="700">Facility search</text>
+  <rect x="164" y="406" width="348" height="40" rx="6" fill="white" stroke="#2563EB"/>
+  <text x="178" y="431" fill="#0F172A" font-family="Arial, sans-serif" font-size="15">Sea</text>
+  <rect x="164" y="454" width="348" height="86" rx="6" fill="white" stroke="#CBD5E1"/>
+  <rect x="164" y="454" width="348" height="43" rx="6" fill="#DBEAFE"/>
+  <text x="178" y="480" fill="#0F172A" font-family="Arial, sans-serif" font-size="15" font-weight="700">Seattle - Storage Facility</text>
+  <text x="178" y="523" fill="#0F172A" font-family="Arial, sans-serif" font-size="15" font-weight="700">Austin - Climate Controlled Units</text>
+  <rect x="640" y="238" width="420" height="148" rx="10" fill="#F8FAFC" stroke="#E2E8F0"/>
+  <text x="664" y="274" fill="#334155" font-family="Arial, sans-serif" font-size="15" font-weight="700">Keyboard support</text>
+  <text x="664" y="314" fill="#0F172A" font-family="Arial, sans-serif" font-size="16">ArrowDown / ArrowUp navigate options</text>
+  <text x="664" y="346" fill="#0F172A" font-family="Arial, sans-serif" font-size="16">Enter selects active option</text>
+  <text x="664" y="378" fill="#0F172A" font-family="Arial, sans-serif" font-size="16">Escape closes dropdown</text>
+  <rect x="640" y="424" width="420" height="152" rx="10" fill="#F8FAFC" stroke="#E2E8F0"/>
+  <text x="664" y="460" fill="#334155" font-family="Arial, sans-serif" font-size="15" font-weight="700">ARIA combobox pattern</text>
+  <text x="664" y="500" fill="#0F172A" font-family="Arial, sans-serif" font-size="16">role="combobox"</text>
+  <text x="664" y="532" fill="#0F172A" font-family="Arial, sans-serif" font-size="16">aria-controls + aria-activedescendant</text>
+  <text x="664" y="564" fill="#0F172A" font-family="Arial, sans-serif" font-size="16">role="listbox" and role="option"</text>
+</svg>

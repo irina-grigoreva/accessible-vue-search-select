@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "outDir": "dist"
+  },
+  "include": ["src/index.ts", "src/types.ts", "src/components/SelectSimpleSearch.vue", "env.d.ts"],
+  "exclude": ["examples", "tests", "dist", "node_modules"]
+}
