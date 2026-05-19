@@ -1,5 +1,5 @@
 {
-  "name": "accessible-vue-search-select",
+  "name": "@irina_grigoreva/accessible-vue-search-select",
   "version": "1.0.0",
   "description": "Accessible Vue 3 searchable select component with keyboard navigation, ARIA combobox/listbox support, TypeScript, slots, and teleported dropdowns.",
   "type": "module",
@@ -17,6 +17,14 @@
     "searchable-select",
     "ui-component"
   ],
+  "homepage": "https://github.com/irina-grigoreva/accessible-vue-search-select#readme",
+  "bugs": {
+    "url": "https://github.com/irina-grigoreva/accessible-vue-search-select/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/irina-grigoreva/accessible-vue-search-select.git"
+  },
   "files": [
     "dist",
     "README.md",
@@ -44,14 +52,6 @@
     "preview": "vite preview",
     "prepublishOnly": "npm run lint && npm run typecheck && npm run test && npm run build"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/irina-grigoreva/accessible-vue-search-select.git"
-  },
-  "bugs": {
-    "url": "https://github.com/irina-grigoreva/accessible-vue-search-select/issues"
-  },
-  "homepage": "https://github.com/irina-grigoreva/accessible-vue-search-select#readme",
   "peerDependencies": {
     "vue": "^3.5.0"
   },

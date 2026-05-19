@@ -4,8 +4,11 @@
 ![TypeScript](https://img.shields.io/badge/TypeScript-Ready-blue)
 ![Accessibility](https://img.shields.io/badge/a11y-ARIA%20combobox-green)
 ![Tests](https://img.shields.io/badge/tests-vitest-yellow)
+![npm](https://img.shields.io/npm/v/@irina_grigoreva/accessible-vue-search-select)
 
 A reusable and accessible Vue 3 combobox/listbox component built with TypeScript.
+
+Published npm package: `@irina_grigoreva/accessible-vue-search-select`
 
 ![Accessible Vue Search Select demo](./docs/demo-screenshot.svg)
 
@@ -51,14 +54,14 @@ The demo source is in [examples/SelectSimpleSearchDemo.vue](./examples/SelectSim
 ## Installation
 
 ```bash
-npm install accessible-vue-search-select
+npm install @irina_grigoreva/accessible-vue-search-select
 ```
 
 Import the component and styles:
 
 ```ts
-import { SelectSimpleSearch } from "accessible-vue-search-select";
-import "accessible-vue-search-select/dist/accessible-vue-search-select.css";
+import { SelectSimpleSearch } from "@irina_grigoreva/accessible-vue-search-select";
+import "@irina_grigoreva/accessible-vue-search-select/dist/accessible-vue-search-select.css";
 ```
 
 For local development in this repository:
@@ -75,8 +78,8 @@ npm run build
 ```vue
 <script setup lang="ts">
 import { ref } from "vue";
-import { SelectSimpleSearch, type SelectOption } from "accessible-vue-search-select";
-import "accessible-vue-search-select/dist/accessible-vue-search-select.css";
+import { SelectSimpleSearch, type SelectOption } from "@irina_grigoreva/accessible-vue-search-select";
+import "@irina_grigoreva/accessible-vue-search-select/dist/accessible-vue-search-select.css";
 
 const selected = ref<SelectOption | null>(null);
 
