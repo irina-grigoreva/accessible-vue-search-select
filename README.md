@@ -1,6 +1,11 @@
-# Accessible Vue 3 Search Select Component
+# Accessible Vue Search Select
 
-Reusable, typed and accessible Vue 3 searchable select component. It follows the WAI-ARIA combobox/listbox pattern, supports keyboard navigation, works with simple `{ label, value }` options, and keeps backward compatibility with facility-style objects.
+![Vue](https://img.shields.io/badge/Vue-3.5+-42b883)
+![TypeScript](https://img.shields.io/badge/TypeScript-Ready-blue)
+![Accessibility](https://img.shields.io/badge/a11y-ARIA%20combobox-green)
+![Tests](https://img.shields.io/badge/tests-vitest-yellow)
+
+A reusable and accessible Vue 3 combobox/listbox component built with TypeScript.
 
 ![Accessible Vue Search Select demo](./docs/demo-screenshot.svg)
 
@@ -26,7 +31,7 @@ Reusable, typed and accessible Vue 3 searchable select component. It follows the
 
 ## Demo
 
-<video src="./demo/demo.mp4" controls autoplay loop muted></video>
+<video src="./demo/demo.mp4" controls autoplay loop muted playsinline></video>
 
 Run the local demo:
 
