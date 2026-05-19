@@ -58,7 +58,7 @@ Import the component and styles:
 
 ```ts
 import { SelectSimpleSearch } from "accessible-vue-search-select";
-import "accessible-vue-search-select/style.css";
+import "accessible-vue-search-select/dist/accessible-vue-search-select.css";
 ```
 
 For local development in this repository:
@@ -76,7 +76,7 @@ npm run build
 <script setup lang="ts">
 import { ref } from "vue";
 import { SelectSimpleSearch, type SelectOption } from "accessible-vue-search-select";
-import "accessible-vue-search-select/style.css";
+import "accessible-vue-search-select/dist/accessible-vue-search-select.css";
 
 const selected = ref<SelectOption | null>(null);
 
@@ -93,6 +93,8 @@ const states = [
     label="State"
     placeholder="Choose a state"
     :options="states"
+    label-key="label"
+    value-key="value"
   />
 </template>
 ```
@@ -244,3 +246,29 @@ Theme colors are exposed as CSS custom properties on `.select-simple`, so design
 ## License
 
 MIT
+
+## Publishing
+
+Do not publish before running the full package verification:
+
+```bash
+npm run lint
+npm run typecheck
+npm run test
+npm run build
+npm pack --dry-run
+```
+
+Publish manually when the package contents look correct:
+
+```bash
+npm login
+npm publish --access public
+```
+
+The package is configured to publish only:
+
+- `dist`
+- `README.md`
+- `LICENSE`
+- `package.json`
